@@ -1,0 +1,3 @@
+# STUB — implemented in Phase 21 (Docker).
+# Will define the backend service + PostgreSQL service once we reach
+# Phase 21, per does_and_dont_for_ai-lms.docx build order.

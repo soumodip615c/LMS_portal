@@ -1,0 +1,16 @@
+# Phase 1: Project Setup
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# Later phases will add (do not install yet, per project rules —
+# introduced only when we reach that phase):
+# Phase 2  - Database:        sqlalchemy, psycopg2-binary, alembic
+# Phase 3  - Data Validation:  pydantic, email-validator
+# Phase 4  - Authentication:   python-jose, passlib, bcrypt
+# Phase 5  - Login Forms:      python-multipart
+# Phase 6  - User Profile:     pillow
+# Phase 8  - Video Upload:     aiofiles
+# Phase 13 - Google Form Quiz: gspread, google-auth
+# Phase 14/15 - Email:         fastapi-mail
+# Phase 19 - Testing:          pytest, httpx

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Uploaded content is local-storage only in dev — keep folders, ignore contents
+app/uploads/videos/*
+!app/uploads/videos/.gitkeep
+app/uploads/notes/*
+!app/uploads/notes/.gitkeep
+app/uploads/assignments/*
+!app/uploads/assignments/.gitkeep
